@@ -1,10 +1,10 @@
 FROM golang:1.9
-MAINTAINER cy  "963916753@qq.com"
+MAINTAINER zsfree  "963916753@qq.com"
 # 该指令用于配置工作目录，其参数应该使用绝对目录。
-WORKDIR $GOPATH/src/github.com/cy
+WORKDIR $GOPATH/src/github.com/zsfree/cy
 # ADD不但支持将本地文件复制到容器中，还支持本地提取文件和远程url下载
 # ADD <src> <dst>
-ADD . $GOPATH/src/github.com/cy
+ADD . $GOPATH/src/github.com/zsfree/cy
 RUN go get github.com/gorilla/mux
 RUN go get github.com/codegangsta/negroni
 RUN go get github.com/unrolled/render
