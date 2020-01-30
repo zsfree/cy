@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/liuyh73/go-web-form/service"
+	"github.com/zsfree/cy/service"
 	flag "github.com/spf13/pflag"
 )
 
