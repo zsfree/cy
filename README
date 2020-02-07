@@ -6,3 +6,6 @@ once again
 ...
 once again
 ...
+docker pull zsfree/cy:latest
+
+kubectl create secret docker-registry mykey --docker-server=zsfree/cy:latest --docker-username=zsfree --docker-password=Free939474 --docker-email=963916753@qq.com
